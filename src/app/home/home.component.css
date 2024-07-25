@@ -1,0 +1,41 @@
+body{
+    background-image: url(sample2.jpg);
+    background-repeat: repeat;
+    opacity: 100%;
+  }
+  nav {
+      display: flex;
+      justify-content: center;
+      background-color: #efefef;
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    nav li { 
+      display: inline;
+      padding: 10px;
+    }
+    
+    nav a {
+      color: hotpink;
+      text-decoration: none;
+    }
+  
+  footer{
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(255, 193, 193);
+  }
+  
+  p{
+      font-size: medium;
+  }
+  
+  
